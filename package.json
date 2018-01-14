@@ -1,0 +1,34 @@
+{
+  "name": "react-poke-sprites",
+  "version": "1.0.0",
+  "description": "A react component that renders pokemon gifs",
+  "main": "build/react-poke-sprites.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "pokemon",
+    "component",
+    "sprites",
+    "gifs"
+  ],
+  "author": "anshumanv",
+  "license": "MIT",
+  "dependencies": {
+    "pokemon-gif": "^1.0.9",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
