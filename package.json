@@ -1,12 +1,16 @@
 {
   "name": "react-poke-sprites",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A react component that renders pokemon gifs",
   "main": "build/react-poke-sprites.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshumanv/react-poke-sprites.git"
   },
   "keywords": [
     "react",
@@ -18,6 +22,10 @@
   ],
   "author": "anshumanv",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anshumanv/react-poke-sprites/issues"
+  },
+  "homepage": "https://github.com/anshumanv/react-poke-sprites#readme",
   "dependencies": {
     "pokemon-gif": "^1.0.9",
     "react": "^16.2.0",
