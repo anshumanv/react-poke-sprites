@@ -1,6 +1,7 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import pokemonGif from 'pokemon-gif';
 import pokemonPropType from './pokemon-prop';
+import PropTypes from 'prop-types';
 import pokemonNumberToName from 'pokemon-gif/lib/pokedex-number-to-name';
 
 class PokeSprite extends React.Component {
