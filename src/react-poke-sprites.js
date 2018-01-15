@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import pokemonGif from 'pokemon-gif';
 import pokemonPropType from './pokemon-prop';
 import pokemonNumberToName from 'pokemon-gif/lib/pokedex-number-to-name';
