@@ -1,4 +1,4 @@
-# react-poke-sprites <img src="./lugia.gif" alt="Lugia" align="right">	
+# react-poke-sprites [![npm](https://img.shields.io/npm/v/react-poke-sprites.svg)](https://www.npmjs.com/package/react-poke-sprites) [![npm](https://img.shields.io/npm/dt/react-poke-sprites.svg)](https://www.npmjs.com/package/react-poke-sprites) <img src="./lugia.gif" alt="Lugia" align="right">	
 
 > A react component that renders animated pokemon sprites
 
