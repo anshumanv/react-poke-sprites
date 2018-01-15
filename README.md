@@ -3,6 +3,7 @@
 > A react component that renders animated pokemon sprites
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/anshumanv/react-poke-sprites)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](https://github.com/anshumanv/react-poke-sprites)
 [![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](https://github.com/anshumanv/react-poke-sprites)
 
 ### Installation
