@@ -9,7 +9,7 @@
 ### Installation
 Install the npm module in your app directory.
 ```sh
-npm i -S react-poke-sprites
+npm i -S react react-dom react-poke-sprites
 ```
 
 ### Usage
