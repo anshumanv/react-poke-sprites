@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Lugia.gif" alt="Lugia" align="center" width="150">
+  <img src="./lugia.gif" alt="Lugia" align="center" width="150">
 </p>
 
 <h1 align="center"> react-poke-sprites </h1>
@@ -54,7 +54,7 @@ ReactDOM.render(
 
 ## Related
 
-* A corresponding Vue.js component is [here](https://github.com/anshumanv/vue-poke-sprites)
+* A corresponding Vue.js component is [here](https://github.com/anshumanv/vue-poke-sprites).
 
 
 ### Credits
