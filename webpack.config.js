@@ -1,10 +1,10 @@
-const path = require('path');
+const path = require('path')
 module.exports = {
   entry: './src/react-poke-sprites.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'react-poke-sprites.js',
-    libraryTarget: 'commonjs2'
+    libraryTarget: 'commonjs2',
   },
   module: {
     rules: [
@@ -15,13 +15,13 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env']
-          }
-        }
-      }
-    ]
+            presets: ['env'],
+          },
+        },
+      },
+    ],
   },
   externals: {
-    'react': 'commonjs react'
-  }
-};
+    react: 'commonjs react',
+  },
+}

@@ -58,5 +58,6 @@ typings/
 .env
 
 package-lock.json
+yarn.lock
 
 build
