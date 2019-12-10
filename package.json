@@ -1,43 +1,43 @@
 {
-	"name": "react-poke-sprites",
-	"version": "0.0.8",
-	"description": "A react component that renders pokemon gifs",
-	"main": "build/react-poke-sprites.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "webpack --watch",
-		"build": "webpack"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/anshumanv/react-poke-sprites.git"
-	},
-	"keywords": [
-		"react",
-		"js",
-		"pokemon",
-		"component",
-		"sprites",
-		"gifs"
-	],
-	"author": "anshumanv",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/anshumanv/react-poke-sprites/issues"
-	},
-	"homepage": "https://github.com/anshumanv/react-poke-sprites#readme",
-	"dependencies": {
-		"pokemon-gif": "^1.0.9",
-		"prop-types": "^15.6.0",
-		"react": "^16.2.0",
-		"webpack": "^3.10.0"
-	},
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-core": "^6.26.0",
-		"babel-loader": "^7.1.2",
-		"babel-plugin-transform-object-rest-spread": "^6.26.0",
-		"babel-plugin-transform-react-jsx": "^6.24.1",
-		"babel-preset-env": "^1.6.1"
-	}
+  "name": "react-poke-sprites",
+  "version": "0.0.8",
+  "description": "A react component that renders pokemon gifs",
+  "main": "build/react-poke-sprites.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshumanv/react-poke-sprites.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "pokemon",
+    "component",
+    "sprites",
+    "gifs"
+  ],
+  "author": "anshumanv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anshumanv/react-poke-sprites/issues"
+  },
+  "homepage": "https://github.com/anshumanv/react-poke-sprites#readme",
+  "dependencies": {
+    "pokemon-gif": "^1.0.9",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
 }
