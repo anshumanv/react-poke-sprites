@@ -26,21 +26,35 @@
 Install the npm module in your app directory.
 
 ```sh
-npm i -S react react-dom react-poke-sprites
+npm i react-poke-sprites
+
+OR
+
+yarn add react-poke-sprites
 ```
 
 ### Usage
 
+- With a given pokémon name (case insensitive)
+
 ```js
-import React from 'React'
-import ReactDOM from 'react-dom'
 import PokeSprite from 'react-poke-sprites'
 
-ReactDOM.render(
-  <PokeSprite pokemon={'Lugia'} className="lugia-class" />,
-  document.querySelector('#root')
-)
+<PokeSprite pokemon={'Lugia'} className="pokemon-class" /> // passes this className to the rendered sprite
+
 ```
+
+- With a given pokémon id (make sure the ID is valid)
+You may refer this [link](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number) to get id's of all pokémons.
+
+
+```js
+import PokeSprite from 'react-poke-sprites'
+
+<PokeSprite pokemon={249} className="pokemon-class" /> // passes this className to the rendered sprite
+
+```
+
 
 ## Props
 
